@@ -1,5 +1,5 @@
 let cantIntentos = 6;
-let diccionario = ["APPLE"];
+let diccionario = ["MOUSE", "APPLE", "HOUSE", "GREEN"];
 
 const palabra = diccionario[Math.floor(Math.random() * diccionario.length)];
 window.addEventListener('load', init)
